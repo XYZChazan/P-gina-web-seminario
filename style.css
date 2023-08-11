@@ -1,3 +1,6 @@
+body{
+    font-family: Poppins !important;
+}
 
 
 
@@ -34,9 +37,108 @@
 
 
 
-
-.programacao{
+.programacao{ 
+    
     height: 30rem;
-    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.divMaiorProgramacao{
     display: grid;
+    width: 17rem;
+    
+    grid-template-areas: 
+    "tituloProgramacao"
+    "subTituloProgramacao"
+    
+    ;
+    
+}
+
+.tituloProgramacao{
+    grid-area: tituloProgramacao;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    row-gap: 20px;
+}
+
+.tituloProgramacao > p{
+    color: #4A00A9;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subTituloProgramacao{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.subTituloProgramacao > p{
+    color: #4A00A9;
+    font-size: 10px;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+hr{
+    height: 1px;
+    width: 100%;
+    background:#4A00A9;
+    border:none
+}
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.horarios > ul{
+    margin-top: 30px;
+}
+
+.horarios > ul > li{
+    border: gray ;
+    border-radius: 5px;
+    background: rgba(74.42, 0, 169.14, 0.07);
+    color: #4A00A9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.horarios > ul > li > span {
+    width: 90%;
+    font-weight: bolder;
+}
+
+.dias{ 
+    font-size: 30px; 
+    height: 5rem;
+}
+
+.dias > span{
+    width: 90%;
+}
+
+.horariosItens{ 
+    font-size: 14px; 
+    height: 2rem;
+}
+
+.horariosItens > span{
+    width: 90%;
 }
