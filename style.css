@@ -38,7 +38,6 @@ body{
 
 
 .programacao{ 
-    
     height: 30rem;
     width: 100%;
     display: flex;
@@ -52,7 +51,9 @@ body{
     grid-template-areas: 
     "tituloProgramacao"
     "subTituloProgramacao"
-    
+    "imagem21"
+    "imagem21"
+    "imagem21"
     ;
     
 }
@@ -69,7 +70,7 @@ body{
 
 .tituloProgramacao > p{
     color: #4A00A9;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     word-wrap: break-word;
     display: flex;
@@ -141,4 +142,12 @@ hr{
 
 .horariosItens > span{
     width: 90%;
+}
+
+.imagem21{
+    grid-area: imagem21;
+    height: 15rem;
+    width: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
