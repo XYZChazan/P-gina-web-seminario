@@ -51,6 +51,8 @@ body{
     grid-template-areas: 
     "tituloProgramacao"
     "subTituloProgramacao"
+    "horarios"
+    "horarios"
     "imagem21"
     "imagem21"
     "imagem21"
@@ -101,6 +103,7 @@ hr{
 }
 
 .horarios{
+    grid-area:horarios;
     display: flex;
     flex-direction: column;
 
@@ -137,7 +140,7 @@ hr{
 
 .horariosItens{ 
     font-size: 14px; 
-    height: 2rem;
+    height: 3.5rem;
 }
 
 .horariosItens > span{
@@ -150,4 +153,121 @@ hr{
     width: 17rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+}
+
+
+/* Media query para tablets (largura mínima de 768px) */
+@media screen and (min-width: 767px) {
+    .programacao {
+        justify-content:start;
+    }
+
+    
+
+    .divMaiorProgramacao {
+        width: 100%;
+        height: 23rem;
+        
+        grid-template-areas: 
+            "tituloProgramacao tituloProgramacao"
+            "subTituloProgramacao subTituloProgramacao"
+            "horarios horarios horarios imagem21"
+            "horarios horarios horarios imagem21"
+            "horarios horarios horarios imagem21"
+            "horarios horarios horarios imagem21";
+            padding: 0px 30px;
+        
+    }
+
+    .tituloProgramacao {
+        grid-area: tituloProgramacao;
+        align-self: start; /* Posiciona no canto superior */
+        justify-self: start; /* Posiciona no canto esquerdo */
+    }
+
+    .horarios {
+        flex-direction:row;
+    }
+    
+
+    .horarios >ul {
+        width: 28%;
+    }
+
+    .horarios > ul > li > span {
+        width: 90%;
+        font-weight: bolder;
+        
+    }
+
+    .dias{ 
+        font-size: 20px;
+        height: 3rem;
+    }
+
+    .listaDiaPri{
+        margin-right: 5%;
+    }
+
+    .horarios > ul {
+        margin-top: 10px;
+    }
+
+    .horarios > ul > li {
+        margin-bottom: 10px;
+    }
+
+    .horariosItens{ 
+        font-size: 10px; 
+        height: 2.5rem;
+    }
+
+    .imagem21{
+        margin-top: 0rem;
+        height: 80%;
+    }
+
+
+
+
+
+
+    
+}
+
+/* Media query para desktops (largura mínima de 1024px) */
+@media screen and (min-width: 1023px) {
+    .divMaiorProgramacao {
+        width: 100%;
+        height: 23rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1.5fr));
+        grid-template-areas: 
+            "tituloProgramacao tituloProgramacao"
+            "subTituloProgramacao subTituloProgramacao"
+            "horarios horarios horarios imagem21"
+            "horarios horarios horarios imagem21"
+            "horarios horarios horarios imagem21"
+            "horarios horarios horarios imagem21";
+            padding: 0px 30px;
+        
+    }
+
+    .horarios >ul {
+        width: 28%;
+    }
+
+    .dias{ 
+        font-size: 30px;
+        height: 4rem;
+    }
+
+    .horariosItens{ 
+        font-size: 15px; 
+        height: 3rem;
+    }
+
+    .imagem21{
+        margin-left: 5%;
+        height: 92%;
+    }
 }
