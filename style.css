@@ -37,8 +37,8 @@ body{
 
 
 
-.programacao{ 
-    height: 30rem;
+.programacao, .inscricao{ 
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -155,8 +155,57 @@ hr{
     margin-bottom: 3rem;
 }
 
+.inscricao{
+    flex-direction: column;
+    align-items: center;
+}
 
-/* Media query para tablets (largura mínima de 768px) */
+  .divMaiorInscricao{
+    display: grid;
+    width: 17rem;
+    
+    grid-template-areas: 
+    "tituloInscricao"
+    "textoInscricao"
+    "textoInscricao"
+    "textoInscricao"
+    ;
+    
+}
+
+  .tituloInscricao {
+    grid-area: tituloInscricao;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .tituloInscricao > p{
+    color: #4A00A9;
+    font-size: 18px;
+    font-weight: 600;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoInscricao{
+    grid-area: textoInscricao;
+}
+
+.textoInscricao > p {
+    color: #462446;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+
+
 @media screen and (min-width: 767px) {
     .programacao {
         justify-content:start;
