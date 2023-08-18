@@ -231,7 +231,13 @@ hr{
 
 .QRcodeButton{
     background: #4A00A9; 
-    border-radius: 5px
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.QRcodeButton:hover{
+    background-color: #2E0075;
+    transform: scale(1.1);
 }
 
 .QRcodeButton > p{
@@ -307,8 +313,8 @@ hr{
 
     .tituloProgramacao {
         grid-area: tituloProgramacao;
-        align-self: start; /* Posiciona no canto superior */
-        justify-self: start; /* Posiciona no canto esquerdo */
+        align-self: start; 
+        justify-self: start; 
     }
 
     .horarios {
@@ -392,7 +398,6 @@ hr{
     
 }
 
-/* Media query para desktops (largura mínima de 1024px) */
 @media screen and (min-width: 1023px) {
     .divMaiorProgramacao {
         width: 100%;
