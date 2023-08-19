@@ -1,41 +1,194 @@
 body{
     font-family: Poppins !important;
 }
+/* CABEÇALHO */
+html{
+    scroll-behavior: smooth;
+}
+.cabecalho{
+    background: #DED4EC;
+    position: fixed;
+    width: 100%;
+}
+.cabecalho header{
+    max-width: 1200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+.cabecalho header ul{
+    display: flex;
+    list-style: none;
+}
+.cabecalho header nav ul li a{
+    text-align: none;
+    color: #4A00A9;
+    padding: 3px;
+    transition: .3s;
+    text-decoration: none;
+    font-weight: 200;
+}
+.cabecalho header nav ul li a:hover{
+    color: #75578a;
+}
+.responsivo{
+    background-color: #211e26;
+    color: #ffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+.logo1{
+    height: 2rem;
+    width:5.5rem;
+    margin-left: 2rem;
 
+}
 
+/* INICIO */
+.home{
+    background-color: #F0F0F0;
+    padding: 5rem;
+    margin: auto;
+}
+.pageHome{
+    display: flex;
+}
+.inicio{
+    color: #4A00A9;
+    text-align: justify;
+    font-size: 60px;
+    font-weight: 600;
+}
+.subtituloInicio{
+    width: 927px;
+    height: 59px;
+    flex-shrink: 0;
+}
+.subtituloInicio h2{
+    color: #4A00A9;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: justify;
+}
+.subtituloInicio span{
+    color: #4A00A9;
+    font-size: 32px;
+    font-weight: 400;
+}
+.textoInicio{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.textoInicio p{
+    color: #462446;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
 
+.textoInicio span{
+    color: #462446;
+    font-size: 20px;
+    font-weight: 600;
+}
+.local{
+    margin-top: 2rem;
+    text-align: justify;
+    width: 737px;
+    height: 216px;
+    flex-shrink: 0;
+}
+.local li{
+    color: #462446;
+    font-size: 20px;
+    font-weight: 600;
+}
+.local span{
+    color: #4A00A9;
+    font-size: 24px;
+    font-weight: 600;
+}
+.botaoI{
+    background: #4A00A9; 
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
 
+.botaoI:hover{
+    background-color: #2E0075;
+    transform: scale(1.1);
+}
 
+.botaoI > p{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    word-wrap: break-word 
+}
+.publico{
+    color: #462446;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
 
+/* SOBRE O EVENTO */
 
+.sobre{
+    background-color: #DED4EC;
+    padding: 5rem;
+    margin: auto;
+    text-align: center;
+}
+.pagSobre{
+    display: flex;
+}
+.duvidas{
+    color: #4A00A9;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.subTituloDuvidas{
+    color: #4A00A9;
+    font-size: 25px;
+    line-height: normal;
+    width: 60%;
+    margin-left: 20%;
+}
+.subTituloDuvidas span{
+    color: #4A00A9;;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.textoSobre{
+    color:#211e26;
+    text-align: justify;
+    margin-top: 2em;
+    font-size: 1.3em;
+}
+.banner1 {
+    height: 38rem;
+    width: 60rem;
+    margin-bottom: 2rem;
+    align-self: flex-end;
+}
+.banner2 {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    height: 20rem;
+    width: 35rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 
 .programacao, .inscricao{ 
     height: 100%;

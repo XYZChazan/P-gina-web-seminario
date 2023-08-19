@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -8,16 +9,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <section class="pagina1.1">
+    <!-- MENU -->
+    <div class="cabecalho">
+        <header>
+            <img class="logo1" src="imagens/logosemi.png" alt="">
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="selecionar()">INICIO</a></li>
+                    <li><a href="#sobre" onclick="selecionar()">SOBRE</a></li>
+                    <li><a href="#programacao" onclick="selecionar()">PROGRAMAÇÃO</a></li>
+                    <li><a href="#programa" onclick="selecionar()">PALESTRANTES</a></li>
+                    <li><a href="#inscricao" onclick="selecionar()">INSCRIÇÃO</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+    <!-- INICIO-->
+    <section id="home" class="home">
+        <div class="inicio">
+            <h1>I seminário de Educação a Distância - LC / Ufra</h1>
+        </div>
+        <div class="subtituloInicio">
+            <h2> <span>Tema |</span> Educação a distância: Qualidade e inovações</h2>
+            <hr>
+        </div>
+        <br>
+        <div class="pageHome">
+            <div class="textoInicio">
+                <p>Nos dias <span>2 e 3 de Outubro</span>, será realizado o <span>I Seminário de Educação à
+                        Distância - LC / UFRA</span> organizado pelos <span>discentes de Licenciatura em
+                        Computação,
+                        turma de 2020.</span> O intuito é desmistificar alguns pensamentos e preconceitos acerca
+                    da
+                    Educação à distância, trazendo rodas de conversa entre os palestrantes e o público presente
+                    sobre as modalidades de educação existentes, metodologias, qualidade, inovações e a sua
+                    relevância social. Além disso, divulgar os produtos info educacionais na feira que será
+                    apresentada nos dois dias.
+                    <br>
+                    <span>Se inscreva e participe!</span>
+                </p>
+                <div class="local">
+                    <ul>
+                        <li>
+                            <span>Local:</span> Local: Av. Perimetral, 2501 - Universitário, Belém - PA, 66077-830
+                            (Auditório do Pavilhão de salas)
+                        </li>
+                        <li>
+                            <span>Data:</span> 2 e 3 de Outubro (duas noites de evento)
+                            Horário: 18h às 20:30h Evento Aberto ao público
+                        </li>
+                        <li>
+                            <span>Horário:</span> 18h às 20:30h Evento Aberto ao público
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="botaoInicio">
+                    <p class="publico"><span>Evento aberto ao público</span></p>
+                    <button class="botaoI" onclick="window.location.href = '#inscricao'">
+                        <p>Realizar inscrição</p>
+                    </button>
+                </div>
+            </div>
+            <img class="banner1" alt="" src="imagens/banner _1.png" />
+        </div>
 
     </section>
 
-    <section class="pagina1.2">
+    <!-- SOBRE -->
 
+    <section id="sobre" class="sobre">
+
+        <div class="duvidas">
+            <p> O que perguntam sobre o tema</p>
+        </div>
+        <div class="subTituloDuvidas">
+            <h2> Tema | <span>Educação a Distância: Qualidade e Inovações</span></h2>
+            <hr>
+        </div>
+        <div class="pagSobre">
+            <img src="imagens/banner_2.png" alt="" class="banner2">
+            <div class="textoSobre">
+                <p>Remoto é EAD(Ensino à distância)?</p>
+                <br>
+                <p>O que é inovação no âmbito educacional na modalidade EAD?</p>
+                <br>
+                <p>Todo ensino de qualidade possui inovação?</p>
+                <br>
+                <p>Estudo pelo YOUTUBE, posso afirmar que estou tendo ensino à distância?</p>
+                <br>
+                <p>Como funciona a dinâmica de aprendizado na educação a distância?</p>
+                <br>
+                <p>Sou alguém com mais idade, será que o EAD é pra mim?</p>
+            </div>
+
+        </div>
     </section>
 
-    <section class="programacao">
+    <!-- PROGRAMAÇÃO -->
+    <section id="programacao" class="programacao">
         <div class="divMaiorProgramacao">
             <div class="tituloProgramacao">
                 <p>
@@ -25,63 +119,67 @@
                 </p>
 
                 <div class="subTituloProgramacao">
-                    <p >
-                        I Seminário de Educação a Distância- LC / Ufra
+                    <p>
+                        I Seminário de Educação a Distância - LC / Ufra
                     </p>
                     <hr>
-                </div>   
+                </div>
             </div>
 
             <div class="horarios">
                 <ul class="listaDiaPri">
                     <li class="dias"><span>1º - dia</span></li>
                     <li class="horariosItens"><span>18:30 - Credenciamento</span></li>
-                    <li class="horariosItens"><span>19:00 - Encenação / teatro - Histórico da EAD  e diferenças entre modalidades de ensino</span></li>
+                    <li class="horariosItens"><span>19:00 - Encenação / teatro - Histórico da EAD e diferenças entre
+                            modalidades de ensino</span></li>
                     <li class="horariosItens"><span>19:40 - Roda de conversa - Desmistificando a EAD</span></li>
                     <li class="horariosItens"><span>20:30 - Encerramento</span></li>
                 </ul>
-                
+
                 <ul>
                     <li class="dias"><span>2º - dia</span></li>
                     <li class="horariosItens"><span>18:30 - Credenciamento</span></li>
-                    <li class="horariosItens"><span>19:00 - Talk show interativo - Ferramentas educacionais, qualidade e inovação.</span></li>
-                    <li class="horariosItens"><span>19:40 - Feira de produtos info educacionais - Curso EAD</span></li>
+                    <li class="horariosItens"><span>19:00 - Talk show interativo - Ferramentas educacionais,
+                            qualidade e
+                            inovação.</span></li>
+                    <li class="horariosItens"><span>19:40 - Feira de produtos info educacionais - Curso EAD</span>
+                    </li>
                     <li class="horariosItens"><span>20:30 - Encerramento</span></li>
                 </ul>
 
                 <img class="imagem21" src="imagens/benner_3 2.png" aria-placeholder="Homem sorrindo e olhando para a frente com o corpo 
-                parcialmente atrás de uma pilastra"/>
-        </div>
-                   
+                parcialmente atrás de uma pilastra" />
             </div>
-                
+
+        </div>
+
     </section>
 
     <section class="pagina3">
 
     </section>
 
-    <section class="inscricao">
+    <section id="inscricao" class="inscricao">
         <div class="divMaiorInscricao">
-            
+
             <div class="tituloInscricao">
                 <p>
-                    Sobre a inscrição 
+                    Sobre a inscrição
                     <hr>
                 </p>
             </div>
-        
+
 
             <div class="textoInscricao">
                 <p>
-                    Para participar do evento, será necessário  realizar sua inscrição através do 
-                    formulário. Basta scanear o código que está disponível na página ou clicar no 
-                    botão “Realizar inscrição”. Após isso, você será redirecionado ao formulário, 
+                    Para participar do evento, será necessário realizar sua inscrição através do
+                    formulário. Basta scanear o código que está disponível na página ou clicar no
+                    botão “Realizar inscrição”. Após isso, você será redirecionado ao formulário,
                     preencha com seus dados e envie a sua resposta para confirmar sua inscrição.</p>
                 <br>
                 <p>
                     Você poderá se inscrever no dia do evento somente se houver vagas disponíveis (
-                    De acordo com a quantidade de inscrições feitas antecipadamente e a 
+                    De acordo com a quantidade de inscrições feitas antecipadamente e a
                     capacidade do auditório) e somente no primeiro dia.
                 </p>
                 <br>
@@ -89,38 +187,44 @@
                 <br>
                 <p>Algumas informações importantes sobre a inscrição:</p>
                 <br>
-                <p>- Fiz a inscrição  no primeiro dia, preciso fazer no segundo?
-                    A pessoa que fizer a inscrição  no forms no primeiro dia,  não precisará 
-                    fazer no segundo mas precisará assinar frequência. Só receberá certificação 
+                <p>- Fiz a inscrição no primeiro dia, preciso fazer no segundo?
+                    A pessoa que fizer a inscrição no forms no primeiro dia, não precisará
+                    fazer no segundo mas precisará assinar frequência. Só receberá certificação
                     quem participar dos dois dias.</p>
-                    <br>
-                <p>- Não fiz o credenciamento no primeiro dia, nem me inscrevi anteriormente, posso participar do segundo dia? 
+                <br>
+                <p>- Não fiz o credenciamento no primeiro dia, nem me inscrevi anteriormente, posso participar do
+                    segundo dia?
                     Ela poderá assistir o segundo dia do seminário e deverá assinar a frequência.</p>
                 <br>
                 <p>- Fiz minha inscrição anteriormente, preciso levar algo que comprove minha inscrição?</p>
                 <br>
-                <p>Só precisará de algum documento de identificação com foto, como RG, Carteira de Meia Passagem, passaporte.</p>
-            
+                <p>Só precisará de algum documento de identificação com foto, como RG, Carteira de Meia Passagem,
+                    passaporte.</p>
+
             </div>
             <div class="divImagem22">
-                <img class="imagem22" src="imagens/benner_5 2.png" aria-placeholder="Mulher retirando uma duvida com um certificado ao lado"/>
+                <img class="imagem22" src="imagens/benner_5 2.png"
+                    aria-placeholder="Mulher retirando uma duvida com um certificado ao lado" />
             </div>
 
 
-            
+
         </div>
 
         <div class="QRcode">
-            <img class="QRcodeImg" src="imagens/QRcode.jpeg" aria-placeholder="QRcode"/>
-            
-            <button class="QRcodeButton" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSemMhP_OjhJ_zfSb17HERp4KuFRhe5lyG5p9_TqQ0DFl5JYrg/viewform';"><p>Realizar inscrição</p></button>
+            <img class="QRcodeImg" src="imagens/QRcode.jpeg" aria-placeholder="QRcode" />
+
+            <button class="QRcodeButton"
+                onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSemMhP_OjhJ_zfSb17HERp4KuFRhe5lyG5p9_TqQ0DFl5JYrg/viewform';">
+                <p>Realizar inscrição</p>
+            </button>
         </div>
     </section>
 
     <section class="footer">
 
         <div class="oferecimento">
-            <p class="ufra">Ufra</p>
+            <p class="ufra"></p>
             <img src="imagens/Brasão_ufra 1.png" alt="">
             <img class="logoSeminario" src="imagens/logoseminario.png" alt="">
         </div>
@@ -136,4 +240,5 @@
 </body>
 
 <script src="main.js"></script>
+
 </html>
