@@ -89,7 +89,6 @@ html{
     display: flex;
     flex-direction: column;
     padding-inline: 20px;
-    padding-bottom: 3;
 }
 .textoInicio p{
     color: #462446;
@@ -402,6 +401,7 @@ hr{
     font-weight: 600;
     word-wrap: break-word;
     text-align: justify;
+    margin-top: 1rem;
 }
 
 .imagem22{
@@ -612,7 +612,7 @@ hr{
 
     .inicioDiv{
         display: flex;
-        width: 100%;
+        /* width: 100%; */
         flex-direction: column;
         padding-left: 2.5rem;
     }
@@ -677,15 +677,72 @@ hr{
             "horarios horarios horarios imagem21"
             "horarios horarios horarios imagem21"
             "horarios horarios horarios imagem21";
-            padding: 0px 30px;
+            padding: 0px 20px;
         
+    }
+
+    .subtituloInicio {
+        width: 58%;
+    }
+    .subtituloInicio h2 {
+        font-size: 15px;
+    }
+
+    .home {
+        justify-content: start;
+        justify-items: start;
+    }
+
+    .textoInicio p, .textoInicio span{
+        font-size: 15px;
+    }
+    .inicioDiv{
+        padding: 20px
+    }
+
+    .local li {
+        font-size: 14px;
+    }
+
+    .evento {
+        font-size: 14px;
+    }
+
+
+    .duvidas{
+        font-size: 30px !important;
+    }
+
+    .subTituloDuvidas {
+        font-size: 15px;
+    }
+
+    .textoSobre {
+        font-size: 12px;
+    }
+
+    .subTituloDuvidas span{
+        font-size: 15px;
+    }
+
+    .banner2 {
+        height: 25rem;
+        width: 30rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        }
+
+    .tituloProgramacao{
+        align-items: start;
+        justify-content: start;
     }
 
     .subTituloProgramacao{
         width: 30rem;
     }
     .tituloProgramacao > p {
-        font-size: 40px;
+        font-size: 30px;
+        
     }
 
     .subTituloProgramacao > p {
@@ -702,7 +759,7 @@ hr{
 
     .textoInscricao > p{
         margin-top: 1rem;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .horarios >ul {
@@ -727,6 +784,7 @@ hr{
     .inscricao {
         justify-content: start;
         width: auto;
+        padding: 0px 0px 0px 20px;
     }
 
     .divMaiorInscricao{
@@ -876,6 +934,10 @@ hr{
         margin-top: 43px;
         position: relative;
         z-index: 2;
+    }
+
+    .duvidas{
+        font-size: 25px;
     }
     
     
