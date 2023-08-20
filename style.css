@@ -11,11 +11,11 @@ html{
     width: 100%;
 }
 .cabecalho header{
-    max-width: 1200;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 20px;
+    flex-direction: column;
 }
 .cabecalho header ul{
     display: flex;
@@ -28,6 +28,7 @@ html{
     transition: .3s;
     text-decoration: none;
     font-weight: 200;
+    font-size: 10px;
 }
 .cabecalho header nav ul li a:hover{
     color: #75578a;
@@ -42,9 +43,8 @@ html{
 }
 .logo1{
     height: 2rem;
-    width:5.5rem;
-    margin-left: 2rem;
-
+    width:5rem;
+    /* margin-left: 2rem; */
 }
 
 /* INICIO */
@@ -52,7 +52,7 @@ html{
     background-color: #F0F0F0;
     margin: auto;
     display: grid;
-    padding-top: 5rem;
+    padding-top: 6rem;
     justify-content: center;
     justify-items: center;
     flex-basis: auto;
@@ -486,6 +486,19 @@ hr{
 }
 
 @media screen and (min-width: 767px) {
+    .cabecalho header{
+        flex-direction: row;
+        font-size: 20px;
+    }
+
+    .logo1{
+        height: 3rem;
+        width: 10rem;
+    }
+
+    .cabecalho header nav ul li a{
+        font-size: 20px;
+    }
     .programacao {
         justify-content:start;
     }
