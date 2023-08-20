@@ -113,6 +113,7 @@ html{
     color: #462446;
     font-size: 10px;
     font-weight: 600;
+    margin-bottom: 0.3rem;
 }
 .local span{
     color: #4A00A9;
@@ -410,7 +411,7 @@ hr{
 }
 
 .QRcode{
-    margin-top: 3rem;
+    margin: 3rem 0rem;
     padding: 15px;
     background-color: #DED4EC;
     display: flex;
@@ -701,7 +702,7 @@ hr{
 
     .textoInscricao > p{
         margin-top: 1rem;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .horarios >ul {
@@ -713,9 +714,9 @@ hr{
         height: 4rem;
     }
 
-    .horariosItens{ 
-        font-size: 15px; 
-        height: 3rem;
+    .horariosItens{
+        font-size: 15px;
+        height: 4rem;
     }
 
     .imagem21{
@@ -739,7 +740,7 @@ hr{
 
     .imagem22 {
         margin-top: 3rem;
-        width: 35rem;
+        width: 60%;
         height: 25rem;
     }
 
