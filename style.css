@@ -50,72 +50,94 @@ html{
 /* INICIO */
 .home{
     background-color: #F0F0F0;
-    padding: 5rem;
     margin: auto;
+    display: grid;
+    padding-top: 5rem;
+    justify-content: center;
+    justify-items: center;
+    flex-basis: auto;
 }
 .pageHome{
+    padding-bottom: 1rem;
     display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 .inicio{
     color: #4A00A9;
     text-align: justify;
-    font-size: 60px;
+    font-size: 12px;
     font-weight: 600;
+    padding-bottom: 0.5rem;
 }
 .subtituloInicio{
-    width: 927px;
-    height: 59px;
+    width: 17rem;
+    height: 15px;
     flex-shrink: 0;
 }
 .subtituloInicio h2{
     color: #4A00A9;
-    font-size: 32px;
+    font-size: 10px;
     font-weight: 600;
     text-align: justify;
 }
 .subtituloInicio span{
     color: #4A00A9;
-    font-size: 32px;
     font-weight: 400;
 }
 .textoInicio{
     display: flex;
-    width: 50%;
     flex-direction: column;
+    padding-inline: 20px;
+    padding-bottom: 3;
 }
 .textoInicio p{
     color: #462446;
     text-align: justify;
-    font-size: 20px;
     font-weight: 400;
     line-height: 1.6em;
+    font-size: 10px;
 }
 
 .textoInicio span{
     color: #462446;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 600;
 }
 .local{
     margin-top: 2rem;
     text-align: justify;
-    width: 737px;
-    height: 216px;
     flex-shrink: 0;
 }
 .local li{
     color: #462446;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 600;
 }
 .local span{
     color: #4A00A9;
-    font-size: 24px;
+    font-size: 11px;
     font-weight: 600;
 }
+
+.evento{
+    color: #4A00A9;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 1rem 0rem;
+}
+
+.botaoInicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .botaoI{
+    margin-top: 1.5rem;
     background: #4A00A9; 
     border-radius: 5px;
+    width: 9rem;
     transition: transform 0.3s, background-color 0.3s;
 }
 
@@ -126,7 +148,7 @@ html{
 
 .botaoI > p{
     color: white;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 600;
     word-wrap: break-word 
 }
@@ -141,31 +163,36 @@ html{
 
 .sobre{
     background-color: #DED4EC;
-    padding: 5rem;
     margin: auto;
     text-align: center;
+    padding: 1rem 0rem;
+    
 }
-.pagSobre{
+.pagSobre, .sobre{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .duvidas{
     color: #4A00A9;
     font-family: Poppins;
-    font-size: 40px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 .subTituloDuvidas{
+    padding-top: 1rem;
     color: #4A00A9;
-    font-size: 25px;
+    font-size: 10px;
     line-height: normal;
-    width: 60%;
-    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .subTituloDuvidas span{
     color: #4A00A9;;
-    font-size: 25px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -175,19 +202,33 @@ html{
     text-align: justify;
     margin-top: 2em;
     font-size: 1.3em;
+    padding-inline: 3.5rem;
+}
+
+.textoSobre{
+    font-size: 8px;
+}
+
+.pontos{
+    display: flex;
+    justify-content: center;
+}
+.imagem1Div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .banner1 {
-    height: 38rem;
-    width: 60rem;
-    margin-bottom: 2rem;
+    height: 12rem;
+    width: 90%;
     align-self: flex-end;
 }
 .banner2 {
-
-    height: 20rem;
-    width: 35rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+height: 15rem;
+width: 20rem;
+margin-top: 2rem;
+margin-bottom: 1rem;
 }
 
 .programacao, .inscricao{ 
@@ -548,9 +589,66 @@ hr{
         margin-top: 3rem;
         width: 20rem;
         height: 20rem;
+    }
 
+    /* PARTE DO FELPS QUE VOU AJUSTAR PRA MEDIA */
+    .pageHome{
+        flex-direction: row;
+    }
 
-    
+    .inicioDiv{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 2.5rem;
+    }
+
+    .inicio{
+        font-size: 30px;
+    }
+
+    .textoInicio{
+        width: 50%;
+    }
+
+    .imagem1Div {
+        
+        width: 50%;
+    }
+    .banner1 {
+        height: 100%;
+        width: 100%;
+        align-self: flex-end;
+    }
+
+    .botaoInicio{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .botaoI {
+        margin-top: 0rem;
+    }
+    .sobre{
+    flex-direction: row-reverse;
+    }    
+
+    .textoSobreDiv{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .textoSobre{
+        padding: 0px;
+    }
+
+    .pontos{
+        justify-content: flex-start;
+    }
+
 }
 
 @media screen and (min-width: 1023px) {
@@ -892,9 +990,8 @@ hr{
         margin-left: 0px;
         margin-top: 20px;
     }
-    }
-    
-    
-    
-    
 }
+    
+    
+    
+
