@@ -860,10 +860,7 @@ hr{
         word-wrap: break-word;
     }
 
-    .teste{
-        width: 10rem;
-        height: 10rem;
-    }
+    
     
     .container-text {
         /* FONT-WEIGHT: 200; */
@@ -905,7 +902,7 @@ hr{
     .container-desc {
         display: flex;
         padding-top: 1.5rem;
-        padding-left: 6.5rem;
+        padding-left: 6rem;
         /* flex-direction: column; */
     }
     
@@ -938,11 +935,16 @@ hr{
     .container-image {
         /* width: 20%; */
         height:100%;
-        border-radius: 92px;
-        background-color: #462446;
-        margin-top: 43px;
-        position: relative;
+        /* border-radius: 92px; */
+        /* background-color: #462446; */
+        /* margin-top: -2px; */
+        /* position: relative; */
         z-index: 2;
+    }
+
+    .teste{
+        width: 17rem;
+        height: 17rem;
     }
     
     
@@ -979,6 +981,10 @@ hr{
     .container-desc {
         padding-top: 8px;
         padding-left: 100px;
+    }
+
+    .container-palestrantes{
+        margin-bottom: 2rem;
     }
     
     .title-prime {
@@ -1040,14 +1046,15 @@ hr{
     }
     
     .container-image {
-        width: 120px;
-        height: 120px;
+        width: 12rem;
+        height: 12rem;
         border-radius: 60px;
-        background-color: #462446;
-        margin-top: -12px;
-        position: relative;
+        margin-top: -3rem;
+        /* background-color: #462446; */
+        /* margin-top: -12px; */
+        /* position: relative; */
         z-index: 2;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
         /* margin-left: -50px; */
     }
     
@@ -1080,11 +1087,11 @@ hr{
     @media screen and (max-width: 320px) {
 
         .palestrantes{
-            padding: 1rem 20px;
+            padding: 1rem 10px;
         }
 
         .container-palestrantes {
-            padding-left: 1.5rem;
+            /* padding-left: 1.5rem; */
         }
 
         .title {
@@ -1101,6 +1108,7 @@ hr{
 
         .container-selector{
             width: 60%;
+            margin-left: 10px;
         }
     
         .title-prime {
@@ -1116,15 +1124,20 @@ hr{
         }
     
         .container-image {
-            width: 80px;
-            height: 80px;
+            width: 30%;
+            height: 100%;
             border-radius: 40px;
-            background-color: #462446;
-            margin-top: -1px;
+            margin-top: -1rem;
             position: relative;
+            /* background-color: #211e26; */
             z-index: 2;
-            margin-bottom: 30px;
-            margin-left: -30px;
+            /* margin-bottom: 30px; */
+            margin-left: -20px;
+        }
+
+        .teste{
+            width: 7rem;
+            height: 7rem;
         }
     
         .container-text {
