@@ -848,6 +848,7 @@ hr{
         display: flex;
         width: 100%;
         /* padding: -; */
+        /* flex-direction: column; */
     }
     
     .title-prime {
