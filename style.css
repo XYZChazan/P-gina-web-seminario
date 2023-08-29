@@ -1025,6 +1025,10 @@ hr{
         height: 100%;
         margin-top: 80px;
     }
+
+    .ricardo{
+        margin-top: 90px;
+    }
     
     .descritivo {
         color: #4A00A9;
@@ -1082,112 +1086,7 @@ hr{
         align-items: center;
     }
     
-    }
     
-    @media screen and (max-width: 320px) {
-
-        .palestrantes{
-            padding: 1rem 10px;
-        }
-
-        .title {
-            height: 100%;
-            color: #4A00A9;
-            font-size: 20px;
-            font-family: Poppins;
-            font-weight: 600;
-            word-wrap: break-word;
-        }
-
-        .container-selector{
-            width: 60%;
-            margin-left: 10px;
-        }
-    
-        .title-prime {
-            width: 100%;
-            height: 100%;
-            color: #4A00A9;
-            font-size: 16px;
-            font-family: Poppins;
-            font-weight: 600;
-            word-wrap: break-word;
-            margin-top: -2%;
-            margin-bottom: 6%;
-        }
-    
-        .container-image {
-            width: 30%;
-            height: 100%;
-            border-radius: 40px;
-            margin-top: -1rem;
-            position: relative;
-            /* background-color: #211e26; */
-            z-index: 2;
-            /* margin-bottom: 30px; */
-            margin-left: -20px;
-        }
-
-        .teste{
-            width: 7rem;
-            height: 7rem;
-        }
-    
-        .container-text {
-            width: 100%;
-            border-bottom-right-radius: 15px;
-            border-top-right-radius: 15px;
-            display: flex;
-            margin-left: -75px;
-            height: 80px;
-            margin-top: -0.1%;
-        }
-    
-        .container-desc {
-            display: block;
-            padding-top: 7px;
-            padding-left: 80px;
-        }
-    
-        .descritivo {
-            color: #4A00A9;
-            font-size: 5px;
-        }
-    
-        .valor {
-            width: 50%;
-            font-size: 5px;
-            margin-left: 25px;
-            margin-top: -8px;
-        }
-    
-        .valor1 {
-            width: 60%;
-            font-size: 5px;
-            margin-left: 36px;
-            margin-top: -8px;
-        }
-    
-        .container-desc {
-            display: block;
-            /* padding-top: 7px; */
-            /* padding-left: 85px; */
-            /* margin-bottom: -5px; */
-        }
-    
-        .container-sobre-mim {
-            width: 50%;
-            padding-left: 10px;
-            /* margin-left: -110px; */
-            /* margin-top: 39.5px; */
-        }
-    
-        .sobre-mim {
-            width: 90%;
-            font-size: 4px;
-            /* margin-top: -10px; */
-            /* margin-left: -50px; */
-        }   
     
 }
     
