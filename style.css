@@ -1023,6 +1023,7 @@ hr{
     .teste{
         width: 100%;
         height: 100%;
+        margin-top: 80px;
     }
     
     .descritivo {
@@ -1048,7 +1049,7 @@ hr{
         margin-top: -2%;
         flex-direction: column;
         padding-bottom: 10px;
-        padding-top: 3rem;
+        padding-top: 5rem;
     }
     
     .container-image {
