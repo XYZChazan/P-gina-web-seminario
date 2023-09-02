@@ -222,8 +222,9 @@ html{
 }
 .banner1 {
     height: 12rem;
-    width: 90%;
+    width: 20rem;
     align-self: flex-end;
+    /* margin-right: 20px; */
 }
 .banner2 {
 height: 15rem;
@@ -232,7 +233,7 @@ margin-top: 2rem;
 margin-bottom: 1rem;
 }
 
-.programacao, .inscricao{ 
+.programacao, .inscricao{
     height: 100%;
     width: 100%;
     display: flex;
@@ -574,7 +575,7 @@ hr{
     .inscricao{
         align-items: start;
         flex-direction: row;
-        padding: 0px 0px 0px 30px;
+        padding: 0px 20px 0px 20px;
         justify-content: start;
         width: auto;
         padding-bottom: 3rem;
@@ -648,6 +649,7 @@ hr{
     }
     .sobre{
     flex-direction: row-reverse;
+    padding: 1rem 20px 1rem 20px ;
     }    
 
     .textoSobreDiv{
@@ -728,7 +730,7 @@ hr{
     }
 
     .banner2 {
-        height: 25rem;
+        height: 20rem;
         width: 30rem;
         margin-top: 2rem;
         margin-bottom: 1rem;
@@ -784,9 +786,9 @@ hr{
     }
 
     .inscricao {
-        justify-content: start;
+        justify-content: center;
         width: auto;
-        padding: 0px 0px 0px 20px;
+        padding: 0px 20px 0px 20px;
     }
 
     .divMaiorInscricao{
