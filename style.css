@@ -124,7 +124,7 @@ html{
 .evento{
     color: #4A00A9;
     text-align: justify;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     margin: 1rem 0rem;
 }
@@ -709,7 +709,7 @@ hr{
     }
 
     .evento {
-        font-size: 14px;
+        font-size: 20px;
     }
 
 
